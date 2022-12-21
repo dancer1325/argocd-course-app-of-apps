@@ -19,9 +19,11 @@ spec:
     kind: Application
   project: default
   source:
+    # Track the directory with all the apps
     path: directory-of-apps
     repoURL: https://github.com/mabusaa/argocd-course-app-of-apps.git
     targetRevision: main
+    # Necessary to go through the subdirectory's files
     directory:
       recurse: true
   syncPolicy:

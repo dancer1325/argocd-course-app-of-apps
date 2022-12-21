@@ -1,3 +1,4 @@
+# Common specifications for all the templates
 spec:
   destination:
     server: https://kubernetes.default.svc
